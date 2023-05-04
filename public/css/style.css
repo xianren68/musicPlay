@@ -1,0 +1,8 @@
+.icon {
+    width:.5rem; /* same as.icon-size */
+    height: .5rem;
+
+}
+html,body,#app {
+    height: 100%;
+}
