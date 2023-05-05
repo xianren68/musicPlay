@@ -29,8 +29,10 @@ import { getBanner } from '../../api'
 
 <style lang="scss" scoped>
 .swipe {
+    margin-top: .5rem;
     .van-swipe {
         height: 3rem;
+        border-radius: 3%;
         img {
             height: 100%;
             width: 100%;

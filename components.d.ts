@@ -9,6 +9,10 @@ export {}
 
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
+    IconList: typeof import('./src/components/home/iconList.vue')['default']
+    MusicList: typeof import('./src/components/home/musicList.vue')['default']
+    RouterLink: typeof import('vue-router')['RouterLink']
+    RouterView: typeof import('vue-router')['RouterView']
     Swipe: typeof import('./src/components/home/swipe.vue')['default']
     TopNav: typeof import('./src/components/home/topNav.vue')['default']
     VanButton: typeof import('vant/es')['Button']

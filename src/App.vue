@@ -1,11 +1,9 @@
 <template>
-  <topNav></topNav>
-  <swipe></swipe>
+  <router-view></router-view>
 </template>
 
 <script setup lang="ts">
-import topNav from './components/home/topNav.vue'
-import swipe from './components/home/swipe.vue';
+
 </script>
 
 <style lang="scss" scoped>
